@@ -29,7 +29,7 @@ namespace Regex_UserRegistrationProblem
                         regular.Mobile("1234567890");
                         break;
                     case 5:
-                        regular.Passeord1("Visesh5366");
+                        regular.Password1("Visesh5366");
                         break;
                     case 6:
                         regular.Password2("viseSH5366");
