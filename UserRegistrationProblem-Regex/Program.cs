@@ -16,7 +16,7 @@ namespace Regex_UserRegistrationProblem
                 switch (option)
                 {
                     case 1:
-                        regular.FirstName("Soma");
+                        regular.FirstName("Visesh");
                         break;
                     case 2:
                         flag = false;
