@@ -10,7 +10,7 @@ namespace Regex_UserRegistrationProblem
             bool flag = true;
             while (flag)
             {
-                Console.WriteLine("\nchoose option to Perform \n1.First Name \n2.Last Name \n3.Email \n4.Exit");
+                Console.WriteLine("\nchoose option to Perform \n1.First Name \n2.Last Name \n3.Email \n4.Mobile Number \n5.Exit");
                 int option = Convert.ToInt32(Console.ReadLine());
                 RegexProblems regular = new RegexProblems();
                 switch (option)
@@ -25,6 +25,9 @@ namespace Regex_UserRegistrationProblem
                         regular.Email("abc.xyz@bl.co.in");
                         break;
                     case 4:
+                        regular.Mobile("1234567890");
+                        break;
+                    case 5:
                         flag = false;
                         break;
                 }
