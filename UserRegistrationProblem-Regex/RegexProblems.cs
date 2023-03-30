@@ -42,7 +42,7 @@ namespace UserRegistrationProblem_Regex
             else
                 Console.WriteLine("Not Valid");
         }
-        public void Passeord1(string password1)
+        public void Password1(string password1)
         {
             if (Regex.IsMatch(password1, PASSWORD_1))
                 Console.WriteLine("Password is Valid");
