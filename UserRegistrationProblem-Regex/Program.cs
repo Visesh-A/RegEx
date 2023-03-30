@@ -11,7 +11,7 @@ namespace Regex_UserRegistrationProblem
             while (flag)
             {
                 Console.WriteLine("\nchoose option to Perform \n1.First Name \n2.Last Name \n3.Email \n4.Mobile Number " +
-                   "\n5.Password(Rule-1) \n6.Password(Rule-2) \n7.Exit");
+                    "\n5.Password(Rule-1) \n6.Password(Rule-2) \n7.Password(Rule-3)\n8.Exit");
                 int option = Convert.ToInt32(Console.ReadLine());
                 RegexProblems regular = new RegexProblems();
                 switch (option)
@@ -29,12 +29,15 @@ namespace Regex_UserRegistrationProblem
                         regular.Mobile("1234567890");
                         break;
                     case 5:
-                        regular.Passeord1("Visesh5366");
+                        regular.Password1("Visesh5366");
                         break;
                     case 6:
                         regular.Password2("viseSH5366");
                         break;
                     case 7:
+                        regular.Password3("VI5SE36");
+                        break;
+                    case 8:
                         flag = false;
                         break;
                 }
